@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from backend.agent import create_pagila_agent
+from agent import create_pagila_agent
 
 import traceback
 import time
